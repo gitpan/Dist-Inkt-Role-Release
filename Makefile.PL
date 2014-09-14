@@ -7,7 +7,7 @@ my $meta = {
   "abstract"       => "automatically upload a distrbution to the CPAN",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.020, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.021, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -33,7 +33,7 @@ my $meta = {
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.002 },
+                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.003 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -42,9 +42,14 @@ my $meta = {
                                         },
                         homepage     => "https://metacpan.org/release/Dist-Inkt-Role-Release",
                         license      => ["http://dev.perl.org/licenses/"],
+                        repository   => {
+                                          type => "git",
+                                          url  => "git://github.com/tobyink/p5-dist-inkt-role-release.git",
+                                          web  => "https://github.com/tobyink/p5-dist-inkt-role-release",
+                                        },
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Dist-Inkt-Role-Release/project",
                       },
-  "version"        => 0.002,
+  "version"        => 0.003,
 };
 
 my %dynamic_config;

@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/Dist-Inkt-Role-Release>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Role-Release>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
+0.003	2014-09-14
+
+ [ Packaging ]
+ - Add repo link.
+
 0.002	2014-09-14
 
  - Added: Add prerelease_action and postrelease_action hooks.
