@@ -7,7 +7,7 @@ my $meta = {
   "abstract"       => "automatically upload a distrbution to the CPAN",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.018, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.020, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -33,7 +33,7 @@ my $meta = {
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.001 },
+                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.002 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -44,7 +44,7 @@ my $meta = {
                         license      => ["http://dev.perl.org/licenses/"],
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Dist-Inkt-Role-Release/project",
                       },
-  "version"        => 0.001,
+  "version"        => 0.002,
 };
 
 my %dynamic_config;
