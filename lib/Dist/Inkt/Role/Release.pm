@@ -5,7 +5,7 @@ use warnings;
 package Dist::Inkt::Role::Release;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.003';
+our $VERSION   = '0.004';
 
 use Moose::Role;
 use Types::Standard -types;
@@ -81,7 +81,7 @@ __END__
 
 =head1 NAME
 
-Dist::Inkt::Role::Release - automatically upload a distrbution to the CPAN
+Dist::Inkt::Role::Release - automatically upload a distribution to the CPAN
 
 =head1 SYNOPSIS
 

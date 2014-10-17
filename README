@@ -1,5 +1,6 @@
 NAME
-    Dist::Inkt::Role::Release - automatically upload a distrbution to the CPAN
+    Dist::Inkt::Role::Release - automatically upload a distribution to the
+    CPAN
 
 SYNOPSIS
        distink-dist --should_release=1

@@ -4,10 +4,10 @@ use ExtUtils::MakeMaker 6.17;
 my $EUMM = eval( $ExtUtils::MakeMaker::VERSION );
 
 my $meta = {
-  "abstract"       => "automatically upload a distrbution to the CPAN",
+  "abstract"       => "automatically upload a distribution to the CPAN",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.021, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.023, CPAN::Meta::Converter version 2.142690",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -33,7 +33,7 @@ my $meta = {
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.003 },
+                        "Dist::Inkt::Role::Release" => { file => "lib/Dist/Inkt/Role/Release.pm", version => 0.004 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -49,7 +49,7 @@ my $meta = {
                                         },
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Dist-Inkt-Role-Release/project",
                       },
-  "version"        => 0.003,
+  "version"        => 0.004,
 };
 
 my %dynamic_config;
